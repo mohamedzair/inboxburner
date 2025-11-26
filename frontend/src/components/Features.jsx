@@ -27,13 +27,13 @@ const Features = () => {
   ];
 
   return (
-    <section className="max-w-6xl mx-auto px-6 py-24">
-      <div className="text-center mb-16">
-        <h2 className="text-3xl font-bold text-slate-100 mb-4">Why InboxBurner?</h2>
+    <section className="max-w-6xl mx-auto px-6 py-12">
+      <div className="text-center mb-10">
+        <h2 className="text-3xl font-bold text-slate-100 mb-4">Why Gist?</h2>
         <p className="text-slate-500">Everything you need to protect your digital privacy.</p>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
         {features.map((item, index) => (
           <div key={index} className="p-8 border border-slate-800 rounded-xl bg-slate-900/50 hover:border-slate-700 transition-colors">
             <div className="w-10 h-10 bg-slate-800 rounded-lg flex items-center justify-center mb-6 text-slate-200">
